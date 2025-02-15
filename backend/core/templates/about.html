@@ -30,7 +30,7 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper">
-                <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <a class="logo" href="index.html"> <img src="{% static 'img/logo.png' %}" class="logo-img" alt=""> </a>
                 <!-- <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
             </div>
             <!-- Button -->
@@ -41,28 +41,12 @@
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="index.html" class="dropdown-item"><span>Home Layout 1</span></a></li>
-                            <li><a href="index2.html" class="dropdown-item"><span>Home Layout 2</span></a></li>
-                            <li><a href="index3.html" class="dropdown-item"><span>Home Layout 3</span></a></li>
-                            <li><a href="index4.html" class="dropdown-item"><span>Home Layout 4</span></a></li>
-                            <li><a href="index5.html" class="dropdown-item"><span>Video 1</span></a></li>
-                            <li><a href="index6.html" class="dropdown-item"><span>Video 2</span></a></li>
-                            <li><a href="index7.html" class="dropdown-item"><span>Video 3</span></a></li>
-                            <li><a href="index8.html" class="dropdown-item"><span>Slideshow 1</span></a></li>
-                            <li><a href="index9.html" class="dropdown-item"><span>Slideshow 2</span></a></li>
-                            <li><a href="index10.html" class="dropdown-item"><span>Slideshow 3</span></a></li>
-                            <li><a href="index11.html" class="dropdown-item"><span>Parallax Image 1</span></a></li>
-                            <li><a href="index12.html" class="dropdown-item"><span>Parallax Image 2</span></a></li>
-                            <li><a href="index13.html" class="dropdown-item"><span>Parallax Image 3</span></a></li>
-                            <li><a href="index14.html" class="dropdown-item"><span>Grid Background 1</span></a></li>
-                            <li><a href="index15.html" class="dropdown-item"><span>Grid Background 2</span></a></li>
-                        </ul>     
+                        </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Rooms & Suites <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="rooms.html" class="dropdown-item"><span>Rooms 1</span></a></li>
-                            <li><a href="rooms2.html" class="dropdown-item"><span>Rooms 2</span></a></li>
-                            <li><a href="rooms3.html" class="dropdown-item"><span>Rooms 3</span></a></li>
                             <li><a href="room-details.html" class="dropdown-item"><span>Room Details</span></a></li>
                         </ul>
                     </li>
@@ -71,24 +55,12 @@
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="services.html" class="dropdown-item"><span>Services</span></a></li>
-                            <li><a href="facilities.html" class="dropdown-item"><span>Facilities</span></a></li>
-                            <li><a href="gallery.html" class="dropdown-item"><span>Gallery</span></a></li>
-                            <li><a href="team.html" class="dropdown-item"><span>Team</span></a></li>
-                            <li><a href="pricing.html" class="dropdown-item"><span>Pricing</span></a></li>
-                            <li><a href="careers.html" class="dropdown-item"><span>Careers</span></a></li>
                             <li><a href="faq.html" class="dropdown-item"><span>F.A.Qs</span></a></li>
-                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Other Pages <i class="ti-angle-right"></i></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="404.html" class="dropdown-item"><span>404 Page</span></a></li>
-                                    <li><a href="coming-soon.html" class="dropdown-item"><span>Coming Soon</span></a></li>
-                                </ul>
-                            </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">News <i class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="news.html" class="dropdown-item"><span>News 1</span></a></li>
-                            <li><a href="news2.html" class="dropdown-item"><span>News 2</span></a></li>
                             <li><a href="post.html" class="dropdown-item"><span>Post Page</span></a></li>
                         </ul>
                     </li>
@@ -132,8 +104,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="img/rooms/8.jpg" alt="" class="mt-90 mb-30"> </div>
-                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="img/rooms/2.jpg" alt=""> </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="{% static 'img/rooms/8.jpg' %}" alt="" class="mt-90 mb-30"> </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="{% static 'img/rooms/2.jpg' %}" alt=""> </div>
             </div>
         </div>
     </section>
@@ -156,7 +128,7 @@
                 <div class="col-md-8">
                     <div class="owl-carousel owl-theme">
                         <div class="pricing-card">
-                            <img src="img/pricing/1.jpg" alt="">
+                            <img src="{% static 'img/pricing/1.jpg' %}" alt="">
                             <div class="desc">
                                 <div class="name">Room cleaning</div>
                                 <div class="amount">$50<span>/ month</span></div>
@@ -168,7 +140,7 @@
                             </div>
                         </div>
                         <div class="pricing-card">
-                            <img src="img/pricing/2.jpg" alt="">
+                            <img src="{% static 'img/pricing/2.jpg' %}" alt="">
                             <div class="desc">
                                 <div class="name">Drinks included</div>
                                 <div class="amount">$30<span>/ daily</span></div>
@@ -180,7 +152,7 @@
                             </div>
                         </div>
                         <div class="pricing-card">
-                            <img src="img/pricing/3.jpg" alt="">
+                            <img src="{% static 'img/pricing/3.jpg' %}" alt="">
                             <div class="desc">
                                 <div class="name">Room Breakfast</div>
                                 <div class="amount">$30<span>/ daily</span></div>
@@ -192,7 +164,7 @@
                             </div>
                         </div>
                         <div class="pricing-card">
-                            <img src="img/pricing/4.jpg" alt="">
+                            <img src="{% static 'img/pricing/4.jpg' %}" alt="">
                             <div class="desc">
                                 <div class="name">Safe & Secure</div>
                                 <div class="amount">$15<span>/ daily</span></div>
@@ -281,7 +253,7 @@
             <div class="row">
                 <div class="col-md-12 owl-carousel owl-theme">
                     <div class="item">
-                        <div class="img"> <img src="img/team/4.jpg" alt=""> </div>
+                        <div class="img"> <img src="{% static 'img/team/4.jpg' %}" alt=""> </div>
                         <div class="info">
                             <h6>Valentina Karla</h6>
                             <p>General Manager</p>
@@ -298,7 +270,7 @@
                     </div>
                     <div class="item">
                         <div class="img"> 
-                        <img src="img/team/1.jpg" alt=""> </div>
+                        <img src="{% static 'img/team/1.jpg' %}" alt=""> </div>
                         <div class="info">
                             <h6>Micheal White</h6>
                             <p>Guest Service Department</p>
@@ -314,7 +286,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="img"> <img src="img/team/2.jpg" alt=""> </div>
+                        <div class="img"> <img src="{% static 'img/team/2.jpg' %}" alt=""> </div>
                         <div class="info">
                             <h6>Olivia Martin</h6>
                             <p>Reservations Manager</p>
@@ -332,7 +304,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="img"> <img src="img/team/5.jpg" alt=""> </div>
+                        <div class="img"> <img src="{% static 'img/team/5.jpg' %}" alt=""> </div>
                         <div class="info">
                             <h6>Mariana Dana</h6>
                             <p>F&B Manager</p>
@@ -348,7 +320,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="img"> <img src="img/team/3.jpg" alt=""> </div>
+                        <div class="img"> <img src="{% static 'img/team/3.jpg' %}" alt=""> </div>
                         <div class="info">
                             <h6>Enrico Brown</h6>
                             <p>Head Chef</p>
@@ -364,7 +336,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="img"> <img src="img/team/6.jpg" alt=""> </div>
+                        <div class="img"> <img src="{% static 'img/team/6.jpg' %}" alt=""> </div>
                         <div class="info">
                             <h6>Victoria Dan</h6>
                             <p>Meetings and Events Manager</p>
@@ -397,10 +369,10 @@
                             </div>
                             <div class="owl-carousel owl-theme">
                                 <div class="item"> 
-                                    <span class="quote"><img src="img/quot.png" alt=""></span>
+                                    <span class="quote"><img src="{% static 'img/quot.png' %}" alt=""></span>
                                     <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
                                     <div class="info">
-                                        <div class="author-img"> <img src="img/team/4.jpg" alt=""> </div>
+                                        <div class="author-img"> <img src="{% static 'img/team/4.jpg' %}" alt=""> </div>
                                         <div class="cont"> 
                                            <span>
                                                <i class="star-rating"></i>
@@ -414,10 +386,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item"> <span class="quote"><img src="img/quot.png" alt=""></span>
+                                <div class="item"> <span class="quote"><img src="{% static 'img/quot.png' %}" alt=""></span>
                                     <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
                                     <div class="info">
-                                        <div class="author-img"> <img src="img/team/1.jpg" alt=""> </div>
+                                        <div class="author-img"> <img src="{% static 'img/team/1.jpg' %}" alt=""> </div>
                                         <div class="cont"> 
                                            <span>
                                                <i class="star-rating"></i>
@@ -432,10 +404,10 @@
                                     </div>
                                 </div>
                                 <div class="item"> 
-                                    <span class="quote"><img src="img/quot.png" alt=""></span>
+                                    <span class="quote"><img src="{% static 'img/quot.png' %}" alt=""></span>
                                     <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
                                     <div class="info">
-                                        <div class="author-img"> <img src="img/team/5.jpg" alt=""> </div>
+                                        <div class="author-img"> <img src="{% static 'img/team/5.jpg' %}" alt=""> </div>
                                         <div class="cont"> 
                                             <span>
                                                 <i class="star-rating"></i>
@@ -520,23 +492,23 @@
             </div>
     </footer>
     <!-- jQuery -->
-    <script src="js/jquery-3.6.3.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/pace.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollIt.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/YouTubePopUp.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/datepicker.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{% static 'js/jquery-3.6.3.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-3.0.0.min.js' %}"></script>
+    <script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/jquery.isotope.v3.0.2.js' %}"></script>
+    <script src="{% static 'js/pace.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/scrollIt.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+    <script src="{% static 'js/YouTubePopUp.js' %}"></script>
+    <script src="{% static 'js/select2.js' %}"></script>
+    <script src="{% static 'js/datepicker.js' %}"></script>
+    <script src="{% static 'js/smooth-scroll.min.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
 </body>
 </html>
